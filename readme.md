@@ -6,7 +6,7 @@ Este repositório contém um script Python que demonstra a aplicação de métod
 
 ## O que o Código Faz
 
-O script `zero_de_funcoes_automatizado.py` explora o conceito de "zero de função" (ou raiz da função), que é o valor de `x` para o qual `f(x) = 0`. Ele utiliza as seguintes funções da biblioteca `scipy.optimize`:
+O script `root-finding.py` explora o conceito de "zero de função" (ou raiz da função), que é o valor de `x` para o qual `f(x) = 0`. Ele utiliza as seguintes funções da biblioteca `scipy.optimize`:
 
 * **`scipy.optimize.bisect`**: Implementa o Método da Bissecção, um algoritmo robusto e garantido para encontrar raízes em um intervalo definido.
 * **`scipy.optimize.newton`**: Pode se comportar como o Método de Newton-Raphson (se a derivada for fornecida) ou o Método da Secante (sem derivada ou com dois chutes iniciais).
@@ -36,7 +36,7 @@ pip install numpy scipy matplotlib
 
 ### 3. Baixar o Código
 
-Clone este repositório ou baixe o arquivo `zero_de_funcoes_automatizado.py` para uma pasta local, por exemplo:
+Clone este repositório ou baixe o arquivo `root-finding.py` para uma pasta local, por exemplo:
 `C:\MeusProjetos\CalculoNumerico`.
 
 ### 4. Rodar o Script
@@ -45,7 +45,7 @@ Clone este repositório ou baixe o arquivo `zero_de_funcoes_automatizado.py` par
 
 1. Abra o VS Code.
 2. Vá em **File > Open Folder...** e selecione a pasta.
-3. Abra o arquivo `zero_de_funcoes_automatizado.py`.
+3. Abra o arquivo `root-finding.py`.
 4. Clique com o botão direito no código e selecione **Run Python File in Terminal**, ou use o atalho `Ctrl+Alt+N` (com Code Runner instalado).
 
 #### Opção B: Rodar no Terminal
@@ -60,7 +60,7 @@ cd C:\MeusProjetos\CalculoNumerico
 3. Execute o script:
 
 ```bash
-python zero_de_funcoes_automatizado.py
+python root-finding.py
 ```
 
 ---
@@ -174,7 +174,7 @@ Função em análise: f(x) = x³ - x - 2
   Raiz encontrada: 1.521380
 
 [Método fsolve - scipy.optimize.fsolve]
-<SeuArquivo>/zero_de_funcoes_automatizado.py:125: RuntimeWarning: The iteration is not making good progress...
+<SeuArquivo>/root-finding.py:125: RuntimeWarning: The iteration is not making good progress...
   Raiz encontrada: 0.571277
 
 Gráfico geral da função para visualização (intervalo padrão):
