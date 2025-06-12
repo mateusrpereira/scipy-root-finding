@@ -218,6 +218,12 @@ Gráfico geral da função para visualização (intervalo padrão):
 (Três gráficos serão exibidos para as raízes encontradas e um gráfico geral da função.)
 ```
 
+## Link para Apresentação
+
+Você pode acessar a apresentação associada a este projeto pelo link abaixo:
+
+🔗 [Apresentação do Projeto - Zero de Função e Métodos Numéricos](https://gamma.app/docs/Metodos-Numericos-para-Busca-de-Raizes-ugteo5lc4q1giur)
+
 ---
 
 Ao executar esses cenários, você poderá observar a robustez das funções da `scipy.optimize` e como o tratamento de erros individualizado permite que o programa continue mesmo em caso de falha de um método específico.
